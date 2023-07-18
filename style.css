@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-main{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+
+}
+.header-logo img {
+    width: 61px;
+    height: 32px;
+    padding-right: 14px;
+}
+.header-logo h4 {
+    font-size: 34px;
+}
+
+.header-logo span {
+    color: #ff42a5;
+    text-transform: uppercase;
+}
+.header-menu ul{
+    display: flex;
+
+}
+.header-menu ul{
+    list-style: none;
+
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-left: 20px;
+    color: #3C354F;
+
+}
+.header-menu .fa-brands{
+    color: red;
+}
+.header-menu .fa-tiktok{
+    color: black;
+}
+a.bannar-btn {
+    background: rgba(11, 2, 35, 0.10);
+    padding: 12px;
+    border-radius: 5px;
+}
+.bannar{
+    background-image: url(img/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.bannar-content h2{
+   color : #F948B2;
+   font-size: 77px;
+   
+
+}
+.bannar-content h4 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.bannar-content p{
+    margin-bottom: 15px;
+
+}
+button.singup {
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background: #FF42A5;
+    padding: 13px 22px;
+    font-size: 15px;
+    border-radius: 31px;
+}
+.rogue {
+    border: none;
+    color: white;
+    margin-left: 11px;
+    background: #4EC5F7;
+    padding: 13px 24px;
+    border-radius: 28px;
+    font-size: 15px;
+}
+/* bannar section end */
+/* gamer section start */
