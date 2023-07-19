@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+/* google font css link here */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
 main{
     max-width: 1140px;
     margin: auto;
@@ -148,4 +152,201 @@ button.singup {
     margin-bottom: 13px;
 }
 /* gamer section end */
-/* online section end */
+/* online section start */
+.online-main {
+    display: flex;
+    justify-content: space-around;
+    gap: 33px;
+    padding: 40px 0px;
+}
+.online-text{
+    text-align: center;
+}
+.online-text h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.online-text h4 {
+    font-size: 11px;
+}
+.online{
+    padding: 50px 0px ;
+}
+.online-text span{
+    color: #F948B2;
+
+}
+.hover-conten h3{
+    color: #F948B2;
+}
+.online-img h4 {
+    font-size: 13px;
+    line-height: 17px;
+}
+/* online-section end */
+/* install section start */
+.install {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 145px;
+}
+.install-pictures{
+    height: 400px;
+}
+.positio {
+    width: 200px;
+    height: 230px;
+    position: relative;
+    top: -173px;
+    right: 100px;
+}
+.install-content h4 {
+    font-size: 29px;
+    text-align: right;
+}
+.install-content span{
+    color: #F948B2;
+}
+.install-content p {
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* install section end */
+/* actione gamer section start */
+
+.action-gamer{
+    display: flex;
+    /* grid-template-columns: repeat(5, 1fr); */
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: center;
+
+}
+.action-box{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 25px;
+    padding: 14px 7px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid white;
+ 
+}
+.action-box:hover{
+  
+   
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+}
+
+.action-photo img{
+    width: 50px;
+    height: 55px;
+}
+.action-content{
+
+}
+/* action gamer section end */
+/* footer section start */
+.footer-main{
+    background-color: #0B0223;
+    padding: 50px;
+    color: white;
+
+}
+.footer-pictures{
+
+}
+.footer-pictures{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-pictures img {
+    width: 56px;
+    height: 28px;
+    margin-right: 18px;
+    margin-bottom: 25px;
+}
+.footer-content{
+
+}
+.list-group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon{
+    text-align: center;
+}
+.footer-group{
+    display: flex;
+    justify-content: center;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-pictures span{
+    color: #F948B2;
+
+}
+.footer-pictures h4 {
+    font-size: 30px;
+}
+.list-group h4 {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.icon {
+    padding: 10px;
+}
+.footer-group{
+    color:rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+}
+.footer-group h4 {
+    margin-bottom: 11px;
+    margin-left: 18px;
+    font-weight: 500;
+}
+.footer-title{
+    color:rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+    font-weight: 500;
+
+}
+.hover-conten {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top: -259px;
+    visibility: hidden;
+    opacity: 0;
+ 
+}
+.online-img:hover  .hover-conten{
+    visibility: visible;
+    opacity: 1;
+
+
+}
+.hover-conten h4{
+    color: #F948B2;
+    font-size: 21px;
+
+}
+.hover-conten .fa-solid {
+    color: white;
+    font-size: 30px;
+
+}
