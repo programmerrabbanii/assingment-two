@@ -81,7 +81,11 @@ a.bannar-btn {
 }
 
 .bannar-content h2{
-   color : #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
    font-size: 77px;
    
 
@@ -144,7 +148,10 @@ button.singup {
 .gamer-content h3 {
     font-size: 26px;
     margin-bottom: 13px;
-    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .gamer-content p {
     font-size: 15px;
@@ -173,7 +180,10 @@ button.singup {
     padding: 50px 0px ;
 }
 .online-text span{
-    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 .hover-conten h3{
@@ -206,7 +216,10 @@ button.singup {
     text-align: right;
 }
 .install-content span{
-    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .install-content p {
     text-align: right;
@@ -248,9 +261,7 @@ button.singup {
     width: 50px;
     height: 55px;
 }
-.action-content{
 
-}
 /* action gamer section end */
 /* footer section start */
 .footer-main{
@@ -259,9 +270,7 @@ button.singup {
     color: white;
 
 }
-.footer-pictures{
 
-}
 .footer-pictures{
     display: flex;
     justify-content: center;
@@ -273,9 +282,7 @@ button.singup {
     margin-right: 18px;
     margin-bottom: 25px;
 }
-.footer-content{
 
-}
 .list-group{
     display: flex;
     justify-content: center;
@@ -343,7 +350,6 @@ button.singup {
 .hover-conten h4{
     color: #F948B2;
     font-size: 21px;
-
 }
 .hover-conten .fa-solid {
     color: white;
