@@ -9,6 +9,24 @@
     align-items: center;
     gap: 20px;
    }
+   .action-box {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 25px;
+    padding: 3px 3px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid white;
+}
+   .positio {
+    width: 174px;
+    height: 142px;
+    position: relative;
+    top: -146px;
+    right: 9px;
+}
    .gamer-content p{
     padding: 14px;
    }
@@ -79,11 +97,53 @@ a.bannar-btn{
 .online{
     padding: 0px;
 }
+.install-pictures {
+    height: 400px;
+    text-align: center;
+}
+.action-photo img {
+    width: 36px;
+    height: 42px;
+    text-align: center;
+}
+.action-content h4 {
+    font-size: 10px;
+}
 }
 /* mobail lg devices  */
 @media screen and (max-width:426px) {
     .header-main{
         flex-direction: column;
+    }
+    .action-box {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        margin-bottom: 25px;
+        padding: 3px 3px;
+        margin-bottom: 4px;
+        margin-right: 5px;
+        text-align: center;
+        border: 1px solid white;
+    }
+    .action-photo img {
+        width: 36px;
+        height: 42px;
+        text-align: center;
+    }
+    .action-content h4 {
+        font-size: 10px;
+    }
+    .positio {
+        width: 174px;
+        height: 142px;
+        position: relative;
+        top: -146px;
+        right: 9px;
+    }
+    .install-pictures {
+        height: 400px;
+        text-align: center;
     }
    .header-menu ul{
     flex-direction: column;
@@ -161,36 +221,64 @@ a.bannar-btn{
 .online{
     padding: 0px;
 }
+.rogue {
+    padding: 9px 17px;
+    border-radius: 28px;
+    font-size: 11px;
+}
+button.singup {
+    padding: 10px 13px;
+    font-size: 11px;
+    border-radius: 31px;
+}
+.bannar {
+    height: 442px;
+    padding: 40px;
+}
 }
 
     
 
 /* tablat devices responsive */
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:769px) {
     img {
         height: 100%;
         width: 60%;
     }
-    .bannar{
-        height: 344px;
+    .bannar {
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        background-image: url(img/Group\ 14.png);
+    
+       
     }
+    button.singup {
+        padding: 10px 13px;
+        font-size: 11px;
+        border-radius: 31px;
+    }
+    .rogue {
+        margin-left: 10px;
+        padding: 9px 17px;
+        font-size: 11px;
+    }
+    
     .bannar-content h4 {
         font-size: 26px;
         margin-bottom: 1px;
-        padding: 11px;
+       
     }
     .bannar-content h2{
         font-size: 35px;
-        padding: 0px 10px;
+       
     }
-    .bannar {
-        background-image: url(img/Group\ 14.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-        display: flex;
-        justify-content: space-around;
-        height: 700px;
+    
+    .gamer-content {
+        /* text-align: right; */
+        width: 50%;
+        padding: 29px;
     }
     
 }
